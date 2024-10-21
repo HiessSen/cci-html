@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulaires - exercice 2</title>
+</head>
+<body>
+  <form action="">
+    <div class="input">
+      <label for="nom">Nom</label>
+      <input type="text" name="nom" id="nom">
+    </div>
+    <div class="input">
+      <label for="prenom">Prénom</label>
+      <input type="text" name="prenom" id="prenom">
+    </div>
+    <div class="input">
+      <label for="email">E-mail</label>
+      <input type="email" name="email" id="email">
+    </div>
+    <div class="input">
+      <label for="date">Date</label>
+      <input type="date" name="date" id="date" min="2024-10-17">
+    </div>
+    <div class="input">
+      <label for="time">Heure</label>
+      <input type="time" name="time" id="time">
+    </div>
+    <div class="input">
+      <select name="participants" id="participants">
+        <option value="1">1 personne</option>
+        <option value="2">2 personnes</option>
+        <option value="3">3 personnes</option>
+        <option value="4">4 personnes</option>
+        <option value="plus">plus de 4 personnes</option>
+      </select>
+    </div>
+    <div class="input">
+      <label for="commentaires">Commentaires</label>
+      <textarea name="commentaires" id="commentaires"></textarea>
+    </div>
+    <button>Valider les informations et passer au paiement</button>
+  </form>
+</body>
+</html>

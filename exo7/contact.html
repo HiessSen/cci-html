@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Page contact</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="audio.html">Audio</a></li>
+        <li><a href="video.html">Vidéo</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>Titre de page extremement pertinant</h1>
+    <h2>Sous-titre ma foi fort approprié</h2>
+    <h3>Les formulaires c'est très cool</h3>
+   </header>
+   <main>
+    <form action="contact.html" method="post">
+      <div class="input">
+        <label for="nom">NOM :</label>
+        <input type="text" name="nom" id="nom">
+      </div>
+      <div class="input">
+        <label for="mail">Email :</label>
+        <input type="email" name="mail" id="mail">
+      </div>
+      <div class="input">
+        <label>Votre genre :</label>
+        <div class="check">
+          <input type="radio" name="homme" value="homme" id="homme">
+          <label for="homme">Homme</label>
+        </div>
+        <div class="check">
+          <input type="radio" name="femme" value=" femme" id="femme" checked>
+          <label for="femme" >Femme</label>
+        </div>
+        <div class="check">
+          <input type="radio" name="autre" value="autre" id="autre">
+          <label for="autre">Autre</label>
+        </div>
+      </div>
+        <div class="input">
+          <label for="newsletter">Souhaitez-vous vous avonner à la newsletter ?</label>
+          <input type="checkbox" name="newsletter" id="newsletter">
+        </div>
+        <button type="submit">Soumets toi !!!</button>
+    </form>
+   </main>
+   <footer>
+    <a href="#">Mentions légales</a>
+    <address>8 rue du petit chat décédé dans la violence</address>
+   </footer>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulaires - exercice 1</title>
+</head>
+<body>
+  <header>
+    <img src="https://via.placeholder.com/200x200" alt="Logo de mon projet" class="logo">
+    <nav>
+      <ul>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <form action="#" enctype="multipart/form-data" method="post">
+    <div class="input">
+      <label for="civilite">Choisissez votre civilité</label>
+      <input type="radio" name="civilite" value="Homme" id="civiliteHomme" checked>Homme
+      <input type="radio" name="civilite" value="Femme" id="civiliteFemme">Femme
+    </div>
+    <div class="input">
+      <label for="nom">Entrez votre nom</label>
+      <input type="text" id="nom" name="nom">
+    </div>
+    <div class="input">
+      <label for="prenom">Entrez votre prénom</label>
+      <input type="text" id="prenom" name="prenom">
+    </div>
+    <div class="input">
+      <label for="email">Entrez votre email</label>
+      <input type="email" id="email" name="email">
+    </div>
+    <div class="input">
+      <label for="motdepasse">Choisissez votre mot de passe</label>
+      <input type="password" id="motdepasse" name="motdepasse">
+    </div>
+    <div class="input">
+      <label for="motdepasse2">Repetez votre mot de passe</label>
+      <input type="password" id="motdepasse2" name="motdepasse2">
+    </div>
+    <div class="input">
+      <label for="age">Entrez votre âge</label>
+      <input type="number" id="age" name="age">
+    </div>
+    <div class="input">
+      <label for="photo">Choisissez une photo de profil</label>
+      <input type="file" id="photo" name="photo">
+    </div>
+    <div class="input">
+      <label for="description">Description</label>
+      <textarea name="description" id="description"></textarea>
+    </div>
+    <div class="input">
+      <select name="pays" id="pays">
+        <option value="1">France</option>
+        <option value="2">Algérie</option>
+        <option value="3">USA</option>
+        <option value="4">Slovaquie</option>
+      </select>
+    </div>
+    <div class="input">
+      <label for="passion">Quelles sont vos passions</label>
+      <input type="checkbox" name="passion" value="lecture" id="passionLecture">Lecture
+      <input type="checkbox" name="passion" value="cinéma" id="passionCine">Cinéma
+      <input type="checkbox" name="passion" value="jeux-vidéos" id="passionJv">Jeux-vidéos
+      <input type="checkbox" name="passion" value="cueillette de champignon" id="passionCampi">Cueilette de champignons
+      <input type="checkbox" name="passion" value="autre" id="passionAutre">Autre
+    </div>
+  </form>
+  <footer>
+    <img src="https://via.placeholder.com/200x200" alt="Logo de mon projet" class="logo">
+    <p>&copy;Ilan SENOUCI</p>
+  </footer>
+</body>
+</html>

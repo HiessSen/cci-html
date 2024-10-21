@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulaires - exercice 4</title>
+</head>
+<body>
+  <form action="" method="post">
+    <fieldset>
+      <legend>Informations personnelles</legend>
+      <div class="input">
+        <label for="nom">Nom :</label>
+        <input type="text" name="nom" id="nom">
+      </div>
+      <div class="input">
+        <label for="prenom">Prénom :</label>
+        <input type="text" name="prenom" id="prenom">
+      </div>
+      <div class="input">
+        <label for="mail">E-mail :</label>
+        <input type="email" name="mail" id="mail">
+      </div>
+      <div class="input">
+        <label for="telephone">Téléphone :</label>
+        <input type="tel" name="telephone" id="telephone">
+      </div>
+      <div class="input">
+        <label for="nomVoie">Nom de voie :</label>
+        <input type="text" name="nomVoie" id="nomVoie">
+      </div>
+      <div class="input">
+        <label for="numeroRue">N° de rue</label>
+        <input type="number" name="numeroRue" id="numeroRue">
+      </div>
+      <div class="input">
+        <label for="complementAdresse">complément d'adresse :</label>
+        <input type="text" name="complementAdresse" id="complementAdresse">
+      </div>
+      <div class="input">
+        <label for="zip">Code postal :</label>
+        <input type="number" name="zip" id="zip">
+      </div>
+      <div class="input">
+        <label for="ville">Ville :</label>
+        <input type="text" name="ville" id="ville">
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Informations professionnelles</legend>
+      <div class="input">
+        <label>Sujet de la demande :</label>
+        <div class="check">
+          <input type="radio" name="sujet" value="sujetDev" id="sujetDev">
+          <label for="sujetDev">Développement web</label>
+        </div>
+        <div class="check">
+          <input type="radio" name="sujet" value=" sujetBdd" id="sujetBdd">
+          <label for="sujetBdd">Base de données</label>
+        </div>
+        <div class="check">
+          <input type="radio" name="sujet" value="sujetBack" id="sujetBack">
+          <label for="sujetBack">Back-end</label>
+        </div>
+        <div class="check">
+          <input type="radio" name="sujet" value="sujetFront" id="sujetFront">
+          <label for="sujetFront">Front-end</label>
+        </div>
+        <div class="check">
+          <input type="radio" name="sujet" value="sujetReferencement" id="sujetReferencement">
+          <label for="sujetReferencement">Référencement web</label>
+        </div>
+        <div class="check">
+          <input type="radio" name="sujet" value="sujetGraphisme" id="sujetGraphisme">
+          <label for="sujetReferencement">Graphisme</label>
+        </div>
+        <div class="check">
+          <input type="radio" name="sujet" value="sujetAutre" id="sujetAutre">
+          <label for="sujetAutre">Autre</label>
+        </div>
+      </div>
+        <div class="input">
+          <textarea name="description" id="description">Description de la demande.</textarea>
+        </div>
+        <div class="input">
+          <label for="budget">Budget :</label>
+          <input type="Number" name="budget" id="budget" placeholder="(en euros €)">
+        </div>
+    </fieldset>
+    <button type="submit">Valider</button>
+    <button type="reset">Annuler  </button>
+  </form>
+</body>
+</html>
