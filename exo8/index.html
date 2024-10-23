@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>exo 8</title>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <img src="img/images.png" alt="le logo de la page. Ça dit logo" id="logo">
+    <h1>Le site, le site, le site !!!!</h1>
+    <!-- Nav -->
+    <nav>
+      <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#apropos">A propos</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#faq"></a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- main -->
+  <main>
+    <!-- section 1 -->
+    <section>
+      <h2>Une présentation d'entreprise digne ds plus grands cuisiniers de toute l'Océanie</h2>
+      <!-- tableau -->
+      <table id="accueil" class="table">
+        <!-- colgroup pour gerer l'apparence des colonnes -->
+        <colgroup>
+          <col span="1" style="background-color: red; width: 100px;">
+          <col span="1" style="background-color: lightblue; width: 150px;">
+          <col span="1" style="background-color: lightgreen; width: 200px;">
+          <col span="1" style="background-color: orange;">
+        </colgroup>
+        <!-- Tete de tableau -->
+        <thead>
+          <tr>
+            <th scope="col">Nom du membre</th>
+            <th scope="col">Poste occupé</th>
+            <th scope="col">Date d'embauche</th>
+            <th scope="col">Tête du boug</th>
+          </tr>
+        </thead>
+        <!-- corps de tableau -->
+        <tbody>
+          <tr>
+            <th scope="row">Ilan</th>
+            <td>Dev web</td>
+            <td>18 octobre</td>
+            <td><img src="img/boug.jpeg" alt=""></td>
+          </tr>
+          <tr>
+            <th scope="row">Tanguy</th>
+            <td>Dev web</td>
+            <td>18 octobre</td>
+            <td><img src="img/boug.jpeg" alt=""></td>
+          </tr>
+          <tr>
+            <th scope="row">Imran</th>
+            <td>Dev web</td>
+            <td>18 octobre</td>
+            <td><img src="img/boug.jpeg" alt=""></td>
+          </tr>
+          <tr>
+            <th scope="row">Tristan</th>
+            <td>Dev web</td>
+            <td>18 octobre</td>
+            <td><img src="img/boug.jpeg" alt=""></td>
+          </tr>
+          <tr>
+            <th scope="row">Jimmy</th>
+            <td>Dev web</td>
+            <td>18 octobre</td>
+            <td><img src="img/boug.jpeg" alt=""></td>
+          </tr>
+          <tr>
+            <th scope="row">Stéphane</th>
+            <td>Dev web</td>
+            <td>18 octobre</td>
+            <td><img src="img/boug.jpeg" alt=""></td>
+          </tr>
+          <tr>
+            <th scope="row">Hugo</th>
+            <td>Dev web</td>
+            <td>18 octobre</td>
+            <td><img src="img/boug.jpeg" alt=""></td>
+          </tr>
+          <tr>
+            <th scope="row">Romain</th>
+            <td>Dev web</td>
+            <td>18 octobre</td>
+            <td><img src="img/boug.jpeg" alt=""></td>
+          </tr>
+          <tr>
+            <th scope="row">Nicolas</th>
+            <td>Dev web</td>
+            <td>18 octobre</td>
+            <td><img src="img/boug.jpeg" alt=""></td>
+          </tr>
+          <tr>
+            <th scope="row">Imane </th>
+            <td>Dev web</td>
+            <td>18 octobre</td>
+            <td><img src="img/boug.jpeg" alt=""></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <!-- Section 2 -->
+    <section>
+      <h2>Petite galerie les potos</h2>
+      <!-- image + legende dans une balise <figure> (X6) -->
+      <figure>
+        <img src="img/image1.jpeg" alt="Un bureau blanc">
+        <figcaption>Voici les bureaux de l'entreprise</figcaption>
+      </figure>
+      <figure>
+        <img src="img/image2.jpeg" alt="Image d'un canapé blanc luxueux">
+        <figcaption>Les canapés des cadre de l'entreprise (Ne surtout pas s'assoir dessus !!!)</figcaption>
+      </figure>
+      <figure>
+        <img src="img/image3.jpeg" alt="Des humains dans une cafeteria">
+        <figcaption>Voici le lieu ou nos chers employés viennent se sustenter et reprendre des forces.</figcaption>
+      </figure>
+      <figure>
+        <img src="img/image4.jpeg" alt="Une jolie femme montre sa lingerie chic">
+        <figcaption>Secretaire de la CCI de Bourges. Ces sales fous là.</figcaption>
+      </figure>
+      <figure>
+        <img src="img/image5.jpeg" alt="Un baby-foot assez moche dans l'herbe">
+        <figcaption>Image la plus raf du monde</figcaption>
+      </figure>
+      <figure>
+        <img src="img/image6.jpeg" alt="Un portrait de Emmanuel Macron">
+        <figcaption>Le président de la CCI de Bourges !</figcaption>
+      </figure>
+    </section>
+    <!-- Section 3 -->
+    <section>
+      <h2>Un plan du site digne des plus grands cartographes</h2>
+      <!-- Une image avec deux zones cliquables -->
+      <img src="img/map.jpeg" alt="alt" usemap="#maps">
+        <map name="maps">
+          <!-- Zone 1 : La CCI -->
+          <area shape="rect" coords="0,0,450,300" href="https://maps.app.goo.gl/QYfStqm8kwKnoAiL9" alt="carte de l'entreprise">
+          <!-- Zone 2 : Loin d'ici ma gueule -->
+          <area shape="rect" coords="450,300,900,600" href="https://maps.app.goo.gl/TMdWbWcrbKmULrDy6" alt="carte pas du tout de l'entreprise">
+        </map>
+    </section>
+    <section id="faq">
+      <h2>Foire aux questions !!</h2>
+      <details>
+        <summary>Plait-il ?</summary>
+        <p>Oui.</p>
+      </details>
+      <details>
+        <summary>Quelle heure est-il ?</summary>
+        <p>Il est 9h00</p>
+      </details>
+      <details>
+        <summary>Ingrid, est-ce que tu baise ?</summary>
+        <p>On sait pas. Je dis pas</p>
+      </details>
+      <details>
+        <summary>Quelle est le bilan de ma vie ?</summary>
+        <p>Mais c'est tout. Je la laisserai pas poluer ma FAQ</p>
+      </details>
+      <details>
+        <summary>J'utilise cette balise pour être poli... </summary>
+        <p>De l'alcool, des femmes et du code</p>
+      </details>
+      <details>
+        <summary>Tout le monde a fini ?</summary>
+        <p>Non</p>
+      </details>  
+    </section>
+  </main>
+  <!-- Footer -->
+  <footer>
+    <div class="mentions">
+      <!-- copyright -->
+      <p>&copy; entreprise X</p>
+      <p>06 06 06 06 06</p>
+      <p>e-mailphysique@delentreprise.fr</p>
+    </div>
+    <!-- balise adresse (avec des P dedans !) -->
+      <address>
+        <p>8 rue de la rue</p>
+        <p>75012, Paris</p>
+      </address>
+  </footer>
+</body>
+</html>
